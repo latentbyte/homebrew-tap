@@ -3,6 +3,7 @@ class Zmenu < Formula
   homepage "https://latentbyte.com/products/zmenu"
   url "https://github.com/hamidzr/zmenu/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "84a736ed64f2ee249ffc5b60c12157410cef2b95c91231287a3d9da62fe40a64"
+  license "MIT"
   head "https://github.com/hamidzr/zmenu.git", branch: "main"
 
   depends_on "zig" => :build
