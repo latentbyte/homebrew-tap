@@ -1,19 +1,19 @@
 class Lbcat < Formula
   desc "Let coding agents drive your signed-in browser through the LBcat extension"
   homepage "https://github.com/latentbyte/lbcat"
-  version "4.35.4"
+  version "4.35.6"
   license "Apache-2.0"
 
   depends_on :macos
   depends_on "terminal-notifier"
 
   on_arm do
-    url "https://github.com/latentbyte/lbcat/releases/download/v4.35.4/lbcat-4.35.4-darwin-arm64.tar.gz"
-    sha256 "d2508f08e761793b7f0d38905be2d8db184b4dd1e899835a2d9f06fc0908b729"
+    url "https://github.com/latentbyte/lbcat/releases/download/v4.35.6/lbcat-4.35.6-darwin-arm64.tar.gz"
+    sha256 "9e452212423d86b5b2c4d57aca9289e10e8ba69f6b8c2b2db1d4dd4820178075"
   end
   on_intel do
-    url "https://github.com/latentbyte/lbcat/releases/download/v4.35.4/lbcat-4.35.4-darwin-amd64.tar.gz"
-    sha256 "c44a8e9d30f794189e5e2f018c433bcdd443e337ec571188dbd20ef8cf564d7b"
+    url "https://github.com/latentbyte/lbcat/releases/download/v4.35.6/lbcat-4.35.6-darwin-amd64.tar.gz"
+    sha256 "c61333cc49ccfdf4f5742cf2098ed95f2c1fa72875487d90ea5f60b3c113dada"
   end
 
   def install
